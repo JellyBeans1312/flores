@@ -1,0 +1,38 @@
+.navigation {
+  height: 12rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+}
+.brand-name {
+  text-decoration: none;
+  color: rgb(49, 49, 35) ;
+  margin-left: 12rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.navigation-menu {
+  margin-left: auto;
+}
+.navigation-menu ul {
+  display: flex;
+  font-size: 1.5rem;
+  padding: 0;
+  margin-right:15rem;
+}
+.navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  color: grey;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.navigation-menu li a:hover{
+  color:black;
+}
